@@ -84,9 +84,14 @@ async def llm_predict(uuid, files_name, cr, images=None):
 
 
 async def main():
-    cr = init_cr(LLM_CR="Gemini_2_0_pro")
+    import argparse
+    parser = argparse.ArgumentParser(description="Extract data from images")
+    parser.add_argument("--file_name", type=str, help="Path to the image file")
+    parser.add_argument("--llm_cr", type=str, help="LLM client registry", default="Gemini_2_0_pro")
+    args = parser.parse_args()
+    cr = init_cr(LLM_CR=args.llm_cr)
     uid = uuid.uuid1()
-    file_name = "images/3.png"
+    file_name = args.file_name
     image = cv2.imread(file_name)
     start_time = time.time()
     results = await llm_predict(uuid=str(uid), files_name=file_name, images=[image], cr=cr)
