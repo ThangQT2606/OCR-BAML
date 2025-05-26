@@ -14,7 +14,8 @@ class Invoices {
 
 
 function ExtractInvoices(images: image[]) -> Invoices {
-  client "openai/gpt-4o" // Set OPENAI_API_KEY to use this client. openai/gpt-4o openai/o1 Gemini_2_0_pro Extract from this content:
+  // client "openai/gpt-4o" // Set OPENAI_API_KEY to use this client. openai/gpt-4o openai/o1 Gemini_2_0_pro Extract from this content:
+  client "Gemini_2_0_pro"
   prompt #"
     
     {{_.role("user")}}
@@ -25,4 +26,13 @@ function ExtractInvoices(images: image[]) -> Invoices {
     {% endfor %}
     {{ ctx.output_format }}
   "#
+}
+
+test TestInvoice {
+  functions [ExtractInvoices]
+  args {
+    images [
+      { url "https://media.tinmoi.vn/2015/12/10/bua-an-binh-dan-toan-rau-co-gia-1,5-trieu-hinh-anh-1.jpg" }
+    ]
+  }
 }
