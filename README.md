@@ -1,6 +1,6 @@
-# Invoices_LLM
+# OCR using BAML, LLM
 
-BAML + LLM
+BAML là ngôn ngữ chuyên ngành để tạo ra các đầu ra có cấu trúc từ LLM
 
 ## 1. Install Necessary Libraries
 
