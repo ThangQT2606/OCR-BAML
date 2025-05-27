@@ -5,6 +5,7 @@ client<llm> Gemini_2_0_pro {
   options {
     model "gemini-2.0-flash"
     api_key env.GOOGLE_API_KEY
+    temperature 0.2
   }
 }
 
@@ -13,6 +14,7 @@ client<llm> Gemini_1_5_pro {
   options {
     model "gemini-1.5-flash"
     api_key env.GOOGLE_API_KEY
+    temperature 0.2
   }
 }
 
@@ -22,6 +24,7 @@ client<llm> Vertex {
     model gemini-1.5-pro
     location us-central1
     api_key env.GOOGLE_API_KEY
+    temperature 0.2
   }
 }
 
@@ -39,6 +42,7 @@ client<llm> CustomOllama {
   options {
     base_url "http://Ollama_IP:Ollama_PORT/v1"
     model "llava:7b"
+    temperature 0.2
   }
 }
 
@@ -47,6 +51,7 @@ client<llm> CustomSonnet {
   options {
     model "claude-3-5-sonnet-20241022"
     api_key env.ANTHROPIC_API_KEY
+    temperature 0.2
   }
 }
 
