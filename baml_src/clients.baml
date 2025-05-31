@@ -5,7 +5,9 @@ client<llm> Gemini_2_0_pro {
   options {
     model "gemini-2.0-flash"
     api_key env.GOOGLE_API_KEY
-    temperature 0.2
+    generationConfig {
+      temperature 0.5
+    }
   }
 }
 
@@ -14,7 +16,9 @@ client<llm> Gemini_1_5_pro {
   options {
     model "gemini-1.5-flash"
     api_key env.GOOGLE_API_KEY
-    temperature 0.2
+    generationConfig {
+      temperature 0.5
+    }
   }
 }
 
@@ -24,7 +28,9 @@ client<llm> Vertex {
     model gemini-1.5-pro
     location us-central1
     api_key env.GOOGLE_API_KEY
-    temperature 0.2
+    generationConfig {
+      temperature 0.5
+    }
   }
 }
 
