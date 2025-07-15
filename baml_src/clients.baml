@@ -3,6 +3,17 @@
 client<llm> Gemini_2_0_pro {
   provider google-ai
   options {
+    model "gemini-2.0-pro"
+    api_key env.GOOGLE_API_KEY
+    generationConfig {
+      temperature 0.5
+    }
+  }
+}
+
+client<llm> Gemini_2_0_flash {
+  provider google-ai
+  options {
     model "gemini-2.0-flash"
     api_key env.GOOGLE_API_KEY
     generationConfig {
@@ -11,10 +22,10 @@ client<llm> Gemini_2_0_pro {
   }
 }
 
-client<llm> Gemini_1_5_pro {
+client<llm> Gemini_2_5_pro {
   provider google-ai
   options {
-    model "gemini-1.5-flash"
+    model "gemini-2.5-pro"
     api_key env.GOOGLE_API_KEY
     generationConfig {
       temperature 0.5
@@ -34,10 +45,10 @@ client<llm> Vertex {
   }
 }
 
-client<llm> CustomGPT4o {
+client<llm> CustomGPT41 {
   provider openai
   options {
-    model "gpt-4o"
+    model "gpt-4.1"
     api_key env.OPENAI_API_KEY
     temperature 0.2
   }
