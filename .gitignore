@@ -173,5 +173,7 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 baml_client
+confusion_matrix.png
 
 *.pptx
+*.bat

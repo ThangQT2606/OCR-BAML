@@ -1,0 +1,260 @@
+{
+  "llm_model": "Gemini_2_0_flash",
+  "metrics": {
+    "accuracy": 0.7272727272727273,
+    "character_accuracy": 0.9272727272727274,
+    "total_samples": 22,
+    "correct_samples": 16
+  },
+  "detailed_results": [
+    {
+      "filename": "2d7k7.png",
+      "ground_truth": "2d7k7",
+      "predicted": "2dAx7",
+      "correct": false,
+      "processing_time": 1.9231531620025635,
+      "tokens": [
+        1307,
+        23
+      ]
+    },
+    {
+      "filename": "2xx83.png",
+      "ground_truth": "2xx83",
+      "predicted": "2xX83",
+      "correct": true,
+      "processing_time": 1.6352896690368652,
+      "tokens": [
+        1307,
+        23
+      ]
+    },
+    {
+      "filename": "5dew2.png",
+      "ground_truth": "5dew2",
+      "predicted": "5dew2",
+      "correct": true,
+      "processing_time": 1.2390480041503906,
+      "tokens": [
+        1307,
+        22
+      ]
+    },
+    {
+      "filename": "63xwd.png",
+      "ground_truth": "63xwd",
+      "predicted": "63xwd",
+      "correct": true,
+      "processing_time": 1.4185473918914795,
+      "tokens": [
+        1307,
+        23
+      ]
+    },
+    {
+      "filename": "6pgpn.png",
+      "ground_truth": "6pgpn",
+      "predicted": "6pgpn",
+      "correct": true,
+      "processing_time": 1.3189105987548828,
+      "tokens": [
+        1307,
+        22
+      ]
+    },
+    {
+      "filename": "7bawx.png",
+      "ground_truth": "7bawx",
+      "predicted": "7baWx",
+      "correct": true,
+      "processing_time": 1.4516072273254395,
+      "tokens": [
+        1307,
+        22
+      ]
+    },
+    {
+      "filename": "8c755.png",
+      "ground_truth": "8c755",
+      "predicted": "8cf55",
+      "correct": false,
+      "processing_time": 1.4295058250427246,
+      "tokens": [
+        1307,
+        23
+      ]
+    },
+    {
+      "filename": "8neg7.png",
+      "ground_truth": "8neg7",
+      "predicted": "8neg7",
+      "correct": true,
+      "processing_time": 1.419076919555664,
+      "tokens": [
+        1307,
+        22
+      ]
+    },
+    {
+      "filename": "8ycyp.png",
+      "ground_truth": "8ycyp",
+      "predicted": "8ycyp",
+      "correct": true,
+      "processing_time": 1.3478686809539795,
+      "tokens": [
+        1307,
+        23
+      ]
+    },
+    {
+      "filename": "aexw5.png",
+      "ground_truth": "aexw5",
+      "predicted": "aexW5",
+      "correct": true,
+      "processing_time": 1.3265326023101807,
+      "tokens": [
+        1307,
+        23
+      ]
+    },
+    {
+      "filename": "c85xr.png",
+      "ground_truth": "c85xr",
+      "predicted": "c85xr",
+      "correct": true,
+      "processing_time": 1.4556677341461182,
+      "tokens": [
+        1307,
+        23
+      ]
+    },
+    {
+      "filename": "ddfpn.png",
+      "ground_truth": "ddfpn",
+      "predicted": "ddfcn",
+      "correct": false,
+      "processing_time": 1.409538745880127,
+      "tokens": [
+        1307,
+        21
+      ]
+    },
+    {
+      "filename": "dker5.png",
+      "ground_truth": "dker5",
+      "predicted": "dkcr5",
+      "correct": false,
+      "processing_time": 1.4965264797210693,
+      "tokens": [
+        1307,
+        22
+      ]
+    },
+    {
+      "filename": "e22ky.png",
+      "ground_truth": "e22ky",
+      "predicted": "e2dxy",
+      "correct": false,
+      "processing_time": 1.3854544162750244,
+      "tokens": [
+        1307,
+        23
+      ]
+    },
+    {
+      "filename": "f7hcn.png",
+      "ground_truth": "f7hcn",
+      "predicted": "f7hcn",
+      "correct": true,
+      "processing_time": 1.4625167846679688,
+      "tokens": [
+        1307,
+        23
+      ]
+    },
+    {
+      "filename": "ghxmd.png",
+      "ground_truth": "ghxmd",
+      "predicted": "ghxmd",
+      "correct": true,
+      "processing_time": 1.280879020690918,
+      "tokens": [
+        1307,
+        22
+      ]
+    },
+    {
+      "filename": "h53be.png",
+      "ground_truth": "h53be",
+      "predicted": "h5abe",
+      "correct": false,
+      "processing_time": 1.7446463108062744,
+      "tokens": [
+        1307,
+        22
+      ]
+    },
+    {
+      "filename": "ne8ey.png",
+      "ground_truth": "ne8ey",
+      "predicted": "ne8ey",
+      "correct": true,
+      "processing_time": 1.9580166339874268,
+      "tokens": [
+        1307,
+        22
+      ]
+    },
+    {
+      "filename": "nf2e3.png",
+      "ground_truth": "nf2e3",
+      "predicted": "nf2e3",
+      "correct": true,
+      "processing_time": 1.4052023887634277,
+      "tokens": [
+        1307,
+        23
+      ]
+    },
+    {
+      "filename": "p76gk.png",
+      "ground_truth": "p76gk",
+      "predicted": "p76gk",
+      "correct": true,
+      "processing_time": 1.751814842224121,
+      "tokens": [
+        1307,
+        23
+      ]
+    },
+    {
+      "filename": "xb3ea.png",
+      "ground_truth": "xb3ea",
+      "predicted": "xb3ea",
+      "correct": true,
+      "processing_time": 1.795790195465088,
+      "tokens": [
+        1307,
+        22
+      ]
+    },
+    {
+      "filename": "xeW3r.png",
+      "ground_truth": "xeW3r",
+      "predicted": "xew3r",
+      "correct": true,
+      "processing_time": 1.5548968315124512,
+      "tokens": [
+        1307,
+        23
+      ]
+    }
+  ],
+  "summary": {
+    "total_images": 22,
+    "correct_predictions": 16,
+    "total_tokens": 29249,
+    "total_processing_time": 33.210490465164185,
+    "avg_processing_time": 1.509567748416554
+  }
+}
